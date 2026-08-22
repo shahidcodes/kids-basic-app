@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.next/
+build/
+*.apk
+*.aab
+*.ipa
+.DS_Store
+*.log
+
+# Android build outputs
+android/app/build/
+android/app/.cxx/
+android/.gradle/
+android/build/
+local.properties
+*.keystore
+!debug.keystore
+
+# iOS
+ios/Pods/
+ios/build/
+*.xcuserstate
+
+# Misc caches
+.turbo/
+cache/

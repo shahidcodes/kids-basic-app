@@ -1,0 +1,26 @@
+#!/bin/bash
+# Simple gradlew that uses downloaded Gradle
+
+GRADLE_VERSION="8.11.1"
+GRADLE_HOME="/tmp/gradle-dl/gradle-${GRADLE_VERSION}"
+
+# Download if not exists
+if [ ! -d "$GRADLE_HOME" ]; then
+    echo "Downloading Gradle ${GRADLE_VERSION}..."
+    mkdir -p /tmp/gradle-dl
+    cd /tmp/gradle-dl
+    curl -L -o gradle-${GRADLE_VERSION}-bin.zip "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip"
+    unzip -q gradle-${GRADLE_VERSION}-bin.zip
+fi
+
+# Set JAVA_HOME if not set
+if [ -z "$JAVA_HOME" ]; then
+    if [ -d "/Applications/Android Studio.app/Contents/jbr/Contents/Home" ]; then
+        export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+    elif [ -d "/Applications/Android Studio.app/Contents/jre/Contents/Home" ]; then
+        export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/Contents/Home"
+    fi
+fi
+
+# Run gradle
+exec "$GRADLE_HOME/bin/gradle" "$@"
