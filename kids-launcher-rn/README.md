@@ -19,5 +19,5 @@ Requires Node 18+, JDK 17 and the Android SDK.
 
 ## Other versions
 
-- [Web app](../kids-learn-app): live at [kidyapp.vercel.app](https://kidyapp.vercel.app)
+- [Web app](../kids-learn-app) (Next.js): the original version
 - [Native Android app](https://github.com/shahidcodes/kids-app-android) (Kotlin): the most complete version, with [APK releases](https://github.com/shahidcodes/kids-app-android/releases/latest)

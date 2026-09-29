@@ -6,7 +6,7 @@ It exists in three forms:
 
 | Version | Where | Status |
 |---|---|---|
-| **Web** (Next.js) | [`kids-learn-app/`](kids-learn-app) · live at [kidyapp.vercel.app](https://kidyapp.vercel.app) | The original version |
+| **Web** (Next.js) | [`kids-learn-app/`](kids-learn-app) | The original version |
 | **React Native launcher** | [`kids-launcher-rn/`](kids-launcher-rn) | A port of the web UI into an Android home-screen launcher, with a native Kotlin module for kiosk mode |
 | **Native Android** (Kotlin, Jetpack Compose) | [shahidcodes/kids-app-android](https://github.com/shahidcodes/kids-app-android) | The most complete version, with APK [releases](https://github.com/shahidcodes/kids-app-android/releases/latest) |
 

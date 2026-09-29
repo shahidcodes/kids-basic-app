@@ -1,6 +1,6 @@
 # Kids Learn (web)
 
-The web version of Kids Learn, live at **[kidyapp.vercel.app](https://kidyapp.vercel.app)**.
+The web version of Kids Learn, the app the Android versions are ported from.
 
 - **Say Mode**: press a letter or number and hear it spoken
 - **Correct Mode**: find the letter shown, against a timer, with points and streaks

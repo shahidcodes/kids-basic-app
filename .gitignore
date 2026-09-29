@@ -32,3 +32,7 @@ kids-launcher-build/
 kids-launcher-rn/*.png
 kids-launcher-rn/.commandcode/
 kids-launcher-rn/android/app/src/main/assets/index.android.bundle
+kids-launcher-rn/PRODUCTION_FIXES.md
+kids-launcher-rn/SETUP.md
+CLAUDE.md
+AGENTS.md
