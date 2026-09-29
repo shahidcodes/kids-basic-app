@@ -25,3 +25,10 @@ ios/build/
 # Misc caches
 .turbo/
 cache/
+
+# Local-only
+.vercel/
+kids-launcher-build/
+kids-launcher-rn/*.png
+kids-launcher-rn/.commandcode/
+kids-launcher-rn/android/app/src/main/assets/index.android.bundle
